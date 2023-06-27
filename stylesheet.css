@@ -1,0 +1,403 @@
+html {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.25em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+figcaption, label, input, small {
+    font-size: 1em;
+}
+
+nav a {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    color: #007d7b;
+}
+
+nav li{
+    text-decoration: none;
+    display: inline-flex;
+    padding: 10px;
+}
+
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 5px;
+    border-radius: 10px 0 0px 0px;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+}
+
+[href="#top"]:hover {
+    border-color:#007d7b;
+}
+
+h1 {
+    font-size: 3em;
+    background-color: white;
+    color: #007d7b;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+}
+
+section#contact {
+    background-color: black;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #007d7b;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 485px) {
+
+    body {
+        width: 485px;
+        margin: 0 auto;
+    }
+
+    #about {
+        padding-top: 10px;
+    }
+
+    div#gallerypics {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    div#gallerypics figcaption {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #chile figcaption, #hawaii figcaption, #moab figcaption {
+        color: white;
+        z-index: 1;
+        position: relative;
+        bottom: 30px;
+    }
+
+    #guatemala figcaption, #wyoming figcaption {
+        color: white;
+        z-index: 1;
+        position: relative;
+        bottom: 275px;
+    }
+
+    #iran figcaption, #ireland figcaption {
+        color: black;
+        z-index: 1;
+        position: relative;
+        bottom: 625px;
+    }
+
+    #italy figcaption {
+        color: black;
+        z-index: 1;
+        position: relative;
+        bottom: 30px;
+    }
+
+    #rocky figcaption, #switzerland figcaption, #uk figcaption, #usa figcaption {
+        color: black;
+        z-index: 1;
+        position: relative;
+        bottom: 275px;
+    }
+
+    figure {
+        margin-bottom: 0px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section#contact {
+        padding-top: 5px;
+    }
+
+    form {
+        width:400px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    label {
+        padding-left: 5px;
+    }
+
+    input {
+        width: 400px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        text-align: center;
+        width: 200px;
+        background-color: #007d7b;
+        color: white;
+        font-weight: bold;
+        border-radius: 30px;
+        border: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 880px) {
+
+    body {
+        width: 880px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    nav ul {
+        width: 500px;
+        margin: 0 auto;
+        padding-left: 90px;
+    }
+
+    #about {
+        padding-top: 10px;
+    }
+
+    div#gallerypics {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    div#gallerypics figcaption {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #chile figcaption, #hawaii figcaption, #moab figcaption {
+        color: white;
+        z-index: 1;
+        position: relative;
+        bottom: 30px;
+    }
+
+    #guatemala figcaption, #wyoming figcaption {
+        color: white;
+        z-index: 1;
+        position: relative;
+        bottom: 275px;
+    }
+
+    #iran figcaption, #ireland figcaption {
+        color: black;
+        z-index: 1;
+        position: relative;
+        bottom: 625px;
+    }
+
+    #italy figcaption {
+        color: black;
+        z-index: 1;
+        position: relative;
+        bottom: 30px;
+    }
+
+    #rocky figcaption, #switzerland figcaption, #uk figcaption, #usa figcaption {
+        color: black;
+        z-index: 1;
+        position: relative;
+        bottom: 275px;
+    }
+
+    figure {
+        margin-bottom: 0px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section#contact {
+        padding-top: 5px;
+    }
+
+    form {
+        width:700px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    label {
+        padding-left: 20px;
+    }
+
+    input {
+        width: 700px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        text-align: center;
+        width: 350px;
+        background-color: #007d7b;
+        color: white;
+        font-weight: bold;
+        border-radius: 30px;
+        border: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+
+    body {
+        width: 1300px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    nav ul {
+        width: 400px;
+        margin-left: 830px;
+
+    }
+
+    #about {
+        padding-top: 10px;
+    }
+
+    div#gallerypics {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    div#gallerypics figcaption {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #chile figcaption, #hawaii figcaption, #moab figcaption {
+        color: white;
+        z-index: 1;
+        position: relative;
+        bottom: 30px;
+    }
+
+    #guatemala figcaption, #wyoming figcaption {
+        color: white;
+        z-index: 1;
+        position: relative;
+        bottom: 275px;
+    }
+
+    #iran figcaption, #ireland figcaption {
+        color: black;
+        z-index: 1;
+        position: relative;
+        bottom: 625px;
+    }
+
+    #italy figcaption {
+        color: black;
+        z-index: 1;
+        position: relative;
+        bottom: 30px;
+    }
+
+    #rocky figcaption, #switzerland figcaption, #uk figcaption, #usa figcaption {
+        color: black;
+        z-index: 1;
+        position: relative;
+        bottom: 275px;
+    }
+
+    figure {
+        margin-bottom: 0px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section#contact {
+        padding-top: 5px;
+    }
+
+    form {
+        width:1000px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    label {
+        padding-left: 20px;
+    }
+
+    input {
+        width: 1000px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        text-align: center;
+        width: 550px;
+        background-color: #007d7b;
+        color: white;
+        font-weight: bold;
+        border-radius: 30px;
+        border: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+}
